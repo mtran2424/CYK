@@ -68,8 +68,11 @@ The format of the file should be as follows:
 	- An example of a CFG file's content is shown below:
 
 S->AR|E,Q->AR,R->QB|b,A->a,B->b
+
 S->QU|TR|UU|TT|BW|AV|E,Q->AV, V->QB|b, R->BW, W->RC|c, T->TT|a|E, U->UU|c|E, A->a, B->b, C->c
+
 S->QT|AU|BV|HQ|a|b|#|E, Q->QT|AU|BV|HQ|a|b|#, R->AU|BV|a|b, T->HQ|#, U->RA|a, V->RB|b, A->a, B->b, H->#
+
 S->TT|ZV|#, T->ZT|TZ|#, U->ZV|#, V->UW, W->ZZ, Z->0
 
 3) Use the included "input.txt" file or prepare your own and name it "input.txt".
